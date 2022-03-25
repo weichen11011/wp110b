@@ -1,15 +1,57 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <style>
+    .banner
+    {
+    padding-top: 250px;
+    width:100%;
+    height: 1200px;
+    background-repeat: no-repeat;
+    background-image: url("blue-gf786877ff_1920.jpg");
+    }
+    .form
+    {
+    padding: 13px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -200px
+    }
+    input[type=text], input[type=password],input[type=date] {
+    padding:8px 14px;
+    width:200px;
+    border-radius:5px;
+    border: 1px #cccccc solid;
+}
+.button
+{
+    padding: 5px 10px;
+    border:solid 1px;
+    border-radius: 10px;
+    border-color: #cccccc;
+    font-size: 16px;
+    background-color:white;
+
+}
+    </style>
+</head>
 <body>
-<form>
-  <h2>Create a new account</h2>
-  <p><input type="text"  name="name" value="" placeholder="Your name"></p>
-  <p><input type="date"  name="datemax" value=""></p>
-  <p><input type="text"  name="email" value="" placeholder="Your email"></p>
-  <p><input type="password"  name="password" value=""placeholder="Password"></p>
-  <p><input type="checkbox" name="agree"> I agree all statements in <a href="#">Terms of service</a></p>
-  <button>Sign up</button>
-</form>
+ <div class="banner">
+    <form>
+        <div class="form">
+            <h2 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Sign up</h2>
+            <p><input type="text"  name="name" value="" placeholder="Your name"></p>
+            <p><input type="date"  name="datemax" value=""></p>
+            <p><input type="text"  name="email" value="" placeholder="Your email"></p>
+            <p><input type="password"  name="password" value=""placeholder="Password"></p>
+            <p><input type="checkbox" name="agree"> I agree all statements in <a href="#">Terms of service</a></p>
+            <button class="button">Sign up</button>
+        </div>
+      </form>
+ </div>   
+
 
 </body>
 </html>
