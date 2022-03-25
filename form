@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+<form>
+  <h2>Create a new account</h2>
+  <p><input type="text"  name="name" value="" placeholder="Your name"></p>
+  <p><input type="date"  name="datemax" value=""></p>
+  <p><input type="text"  name="email" value="" placeholder="Your email"></p>
+  <p><input type="password"  name="password" value=""placeholder="Password"></p>
+  <p><input type="checkbox" name="agree"> I agree all statements in <a href="#">Terms of service</a></p>
+  <button>Sign up</button>
+</form>
+
+</body>
+</html>
