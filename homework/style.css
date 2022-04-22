@@ -1,0 +1,44 @@
+span.relative {
+    position: relative;
+    left: 100%;
+    }
+table.t1{
+    position: relative;
+    right: 35%;
+    }
+table.t2{
+    position: relative;
+    left: 35%;
+    bottom:100px;
+    }
+table.t3{
+    position: relative;
+    right: 400px;
+    }
+table.t4{
+    position: relative;
+    left: 150px;
+    bottom: 100px;
+    }
+table{
+    border-style: none;
+    border-collapse: collapse;
+    text-align: center;
+    }
+img{
+    height: 200px; 
+    border-radius: 300px; 
+    left: 600px
+    }
+div.title{
+    position: fixed; 
+    width: 170px; 
+    height: 30px; 
+    background-color: skyblue; 
+    top: 100px; 
+    text-align: center
+}
+body{
+    height: 1000px;
+    width: 500px;
+}
