@@ -15,4 +15,4 @@ function transpose(array)
 console.log(transpose([[1,2,3],[3,2,1]]));
 
 https://www.delftstack.com/zh-tw/howto/javascript/javascript-2d-array/
-二維陣列
+
