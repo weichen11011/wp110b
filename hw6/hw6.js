@@ -13,11 +13,12 @@ class vector {
     }
   
     neg() {
+      let a=[]
       for (let i=0;i<this.x.length;i++)
       {
-        this.x[i]=-this.x[i];
+        a[i]=this.x[i]*-1;
       }
-      return new vector(this.x);
+      return new vector(a);
     }
   
     add(p2) {
@@ -61,3 +62,4 @@ class vector {
   console.log('p.sub(p2),',p.sub(p2))
   console.log('p.dot(p2)',p.dot(p2))
   console.log('p.distance(p2)',p.distance(p2))
+
