@@ -13,12 +13,11 @@ class vector {
     }
   
     neg() {
-      let a=[];
       for (let i=0;i<this.x.length;i++)
       {
-        a[i]=this.x[i]*-1;
+        this.x[i]=-this.x[i];
       }
-      return a;
+      return new vector(this.x);
     }
   
     add(p2) {
@@ -27,17 +26,11 @@ class vector {
       {
         a[i]=this.x[i]+p2.x[i];
       }
-      return a;
+      return new vector(a);
     }
   
     sub(p2) {
-      let a=[];
-      for (let i=0;i<this.x.length;i++)
-      {
-        a[i]=this.x[i]-p2.x[i];
-      }
-      return a;
-      
+      return this.add(p2.neg())
     }
   
     dot(p2) {
