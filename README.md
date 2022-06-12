@@ -1,11 +1,12 @@
-# 課程:網頁設計 -- 筆記、習題與報告
+# weichen11011.github.io
+本專題修改自 https://github.com/coooo77 的俄羅斯方塊
 
-欄位 | 內容
------|--------
-學期 | 110 學年度下學期
-學生 |  xxx
-學號末兩碼 | xx
-教師 | [陳鍾誠](https://www.nqu.edu.tw/educsie/index.php?act=blog&code=list&ids=4)
-學校科系 | [金門大學資訊工程系](https://www.nqu.edu.tw/educsie/index.php)
-課程內容 | https://gitlab.com/ccc110/wp
-教材網址 | [陳鍾誠的網頁設計課程](https://kinmen6.com/root/%E9%99%B3%E9%8D%BE%E8%AA%A0/%E8%AA%B2%E7%A8%8B/%E7%B6%B2%E9%A0%81%E8%A8%AD%E8%A8%88/README.md)
+#專題報告
+
+##動機
+在一次觀看影片時，推薦欄跳出了用react的寫法來撰寫俄羅斯方塊，好奇心的驅使下便點了進去，然後也開始跟上影片的步驟
+自己來嘗試做俄羅斯方塊。
+
+##過程
+使用react的途中，一大堆沒看過的新東西讓我有點頭暈，不過還是可以理解影片的步驟裡的邏輯想法。但第一次嘗試做出來的框架，格子數明顯與俄羅斯方塊中的12X20不同，
+也花了很多時間來處理，由於問題一直無法解決所以最後決定使用三個檔案.css,.html,.js的撰寫方式。
