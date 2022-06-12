@@ -1,5 +1,5 @@
 # weichen11011.github.io
-本專題修改自 https://github.com/coooo77 的俄羅斯方塊
+本專題修改自 https://github.com/coooo77/tetris 的俄羅斯方塊
 
 # 專題報告
 
