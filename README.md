@@ -12,6 +12,11 @@
 也花了很多時間來處理，由於問題一直無法解決所以最後決定重新使用三個檔案.css,.html,.js的撰寫方式。
 
 react 失敗 https://github.com/weichen11011/weichen11011.github.io/blob/main/react%20error/img/unknown.png
+## 操作說明
+方向鍵(上)---旋轉俄羅斯方塊
+方向鍵(下)---向下
+方向鍵(左)---向左
+方向鍵(右)---向右
 
 ## 參考資料
 react 俄羅斯方塊 https://www.youtube.com/watch?v=ZGOaCxX8HIU&list=LL&index=1&t=1119s
