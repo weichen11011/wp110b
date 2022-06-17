@@ -20,6 +20,11 @@ react 失敗 https://github.com/weichen11011/weichen11011.github.io/blob/main/re
 方向鍵(左)---向左
 
 方向鍵(右)---向右
+## 撰寫過程
+
+一開始，先設定一個俄羅斯方塊的背景大小。之後再創一個model函式來使用陣列的方式排出俄羅斯方塊的形狀和設定俄羅斯方塊的顏色，然後用draw函式繪畫出俄羅斯方塊。接下來開始設定向左向右向下
+
+和旋轉的函示，還有讓向下可以按住來呈現一直向下的動作。設定暫定跟遊戲結束的條件，和得分的規則。從Tetromino的陣列中，隨機選擇一個後，然後顯示下一個tertromino在方格中。
 
 ## 參考資料
 react 俄羅斯方塊 https://www.youtube.com/watch?v=ZGOaCxX8HIU&list=LL&index=1&t=1119s
