@@ -1,5 +1,5 @@
 # weichen11011.github.io
-本專題修改自 https://github.com/coooo77/tetris 的俄羅斯方塊
+本專題修改自 https://github.com/coooo77/tetris 的俄羅斯方塊 修改了40% js的部分是跟著教學一起打的 css和html有根據自己的想法來做調整
 
 # 專題報告
 
@@ -14,8 +14,11 @@
 react 失敗 https://github.com/weichen11011/weichen11011.github.io/blob/main/react%20error/img/unknown.png
 ## 操作說明
 方向鍵(上)---旋轉俄羅斯方塊
+
 方向鍵(下)---向下
+
 方向鍵(左)---向左
+
 方向鍵(右)---向右
 
 ## 參考資料
